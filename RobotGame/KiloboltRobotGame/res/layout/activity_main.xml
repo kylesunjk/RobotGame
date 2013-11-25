@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loadingbackground"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="40dp"
+        android:text="Play Game" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="10dp"
+        android:text="Game Background" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="10dp"
+        android:text="View Video" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:text="User Guide" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:textColor="#000"
+        android:layout_marginTop="152dp"
+        android:text="Name : Zhang Qinqiong" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginTop="182dp"
+        android:textColor="#000"
+        android:text="Ic Number : 2013950632" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:textColor="#000"
+        android:text="GANDAM SURVIVAL"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

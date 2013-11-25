@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.robotgame.robotgame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="RobotGame" >
+        <activity
+            android:name=".SampleGame"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="RobotGame"
+            android:screenOrientation="landscape" >
+
+        </activity>
+        
+        <activity
+            android:name="com.robotgame.controller.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.robotgame.controller.SampleCirclesWithListener"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" 
+            android:label="@string/app_name" >
+
+        </activity>
+        
+        <activity
+            android:name="com.robotgame.controller.FragmentDemoActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" 
+            android:label="@string/app_name" >
+
+        </activity>
+    </application>
+
+</manifest>
