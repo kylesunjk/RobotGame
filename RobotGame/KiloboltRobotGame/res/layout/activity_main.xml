@@ -51,6 +51,7 @@
         android:layout_marginLeft="54dp"
         android:textColor="#000"
         android:layout_marginTop="152dp"
+        android:textSize="20sp"
         android:text="Name : Zhang Qinqiong" />
 
     <TextView
@@ -60,6 +61,7 @@
         android:layout_alignLeft="@+id/textView1"
         android:layout_marginTop="182dp"
         android:textColor="#000"
+        android:textSize="20sp"
         android:text="Ic Number : 2013950632" />
 
     <TextView
@@ -71,6 +73,6 @@
         android:layout_marginTop="41dp"
         android:textColor="#000"
         android:text="GANDAM SURVIVAL"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textSize="27sp" />
 
 </RelativeLayout>
